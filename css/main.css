@@ -9,21 +9,43 @@ button {
 }
 
 .accordion-btn {
+  margin-bottom: 27px;
+  padding: 0 20px;
+  width: 100%;
+}
+.accordion-btn .accordion-details {
   width: 100%;
   height: 70px;
   display: flex;
   align-items: center;
-  padding: 0 20px;
   justify-content: space-between;
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-  margin-bottom: 27px;
 }
-.accordion-btn img.icon {
+.accordion-btn .accordion-details img.icon {
   height: 30px;
   width: 30px;
 }
-.accordion-btn h3 {
+.accordion-btn .accordion-details h3 {
   color: #fff;
+}
+.accordion-btn .accordion-content.open {
+  width: 100%;
+  padding: 25px 20px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  line-height: 1.5em;
+  font-weight: 400;
+  border-radius: 0 0 10px 10px;
+  height: auto !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+.accordion-btn .accordion-content {
+  height: 2px;
+  opacity: 0;
+  display: none;
+  transition: all 0.5s ease;
 }
 
 h1 {
