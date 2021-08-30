@@ -23,5 +23,15 @@ body {
   width: 100%;
   background: linear-gradient(106.96deg, #14214E -8.01%, #381111 108.53%);
 }
+.container .card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 800px;
+  width: 1280px;
+  background: #ffffff33;
+  border-radius: 25px;
+}
 
 /*# sourceMappingURL=main.css.map */
