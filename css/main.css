@@ -34,7 +34,7 @@ button {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   line-height: 1.5em;
-  height: 130px;
+  height: 0;
   overflow: hidden;
   font-weight: 400;
   border-radius: 0 0 10px 10px;
@@ -44,7 +44,7 @@ button {
   padding: 25px 20px;
 }
 .accordion-btn .open {
-  height: 0 !important;
+  height: 130px !important;
 }
 
 h1 {
